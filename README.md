@@ -1,3 +1,3 @@
 ### g++ matrix.cpp -o Matrix -pthread
 
-**./Matrix [ThreadsNum] [InputFileName]**
+**./Matrix [ThreadsNum] [InputFile]**
