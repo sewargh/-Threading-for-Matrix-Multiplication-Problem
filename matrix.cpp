@@ -58,7 +58,7 @@ int main(int arg, char *argv[])
     NumOfThreads = &NumOfThreadstemp;
     pthread_t *threads = new pthread_t[*NumOfThreads];
     // open the file.
-    ifstream infile("argv[2]");
+    ifstream infile(argv[2]);
     string line;
     getline(infile, line);
     int Ntemp = stoi(line);
